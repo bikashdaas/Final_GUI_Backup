@@ -1,0 +1,57 @@
+<<<<<<< HEAD:GUI/package.json
+{
+  "name": "ehw.gui.2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=icons/mac/hyperloop.ico --prune=true --out=release-builds",
+    "package-win": "electron-packager . Avishkar Hyperloop --overwrite --asar=true --platform=win32 --arch=ia32 --icon=icons/win/hyperloop.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Avishkar Hyperloop\"",
+    "package-linux": "electron-packager . Avishkar Hyperloop --overwrite --asar=true --platform=linux --arch=x64 --icon=icons/png/hyperloop.png --prune=true --out=release-builds"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^4.3.4",
+    "socket.io": "^4.4.0",
+    "socket.io-client": "^4.4.0"
+  },
+  "devDependencies": {
+    "electron": "^16.0.7",
+    "electron-packager": "^15.4.0"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.5",
+    "utf-8-validate": "^5.0.7"
+  }
+}
+=======
+{
+  "name": "ehw.gui.2022",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=icons/mac/hyperloop.ico --prune=true --out=release-builds",
+    "package-win": "electron-packager . Avishkar Hyperloop --overwrite --asar=true --platform=win32 --arch=ia32 --icon=icons/win/hyperloop.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Avishkar Hyperloop\"",
+    "package-linux": "electron-packager . Avishkar Hyperloop --overwrite --asar=true --platform=linux --arch=x64 --icon=icons/png/hyperloop.png --prune=true --out=release-builds"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^4.3.4",
+    "socket.io": "^4.4.0",
+    "socket.io-client": "^4.4.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^15.4.0"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.5",
+    "utf-8-validate": "^5.0.7"
+  }
+}
+>>>>>>> fd589e724d874a40143c3983e66192f72832ce24:GUI/Frontend/package.json
